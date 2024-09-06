@@ -15,88 +15,191 @@
 <body>
     <div class="container mt-5">
         <div class="d-flex justify-content-between align-items-center mb-4">
-            <h1 class="mb-0">Articulate Rise: North Carolina DHHS Training Program</h1>
+            <h1 class="mb-0">Articulate Storyline: AMD Employee Product Training Program</h1>
         </div>
         <div class="row">
             <div class="col-md-4">
                 <div class="my-3">
                     <h5>My Role:</h5>
-                    <p>Lead Instructional Designer</p>
+                    <p>Freelance Articulate Developer</p>
                 </div>
                 <div class="my-3">
                     <h5>Project description:</h5>
-                    <p>I was hired as an instructional designer to help the Child and Adult Nutrition branch of the NC DHHS meet federal training requirements, improve public perception of our training program, and expand our asynchronous online course offerings. I started by creating e-learning courses in plain HTML, CSS, and JavaScript, but after my branch purchased Articulate 360, I began using Storyline and Rise.</p>
+                    <p>AMD was creating a training program to teach internal employees about new products. Videos for the courses had already been created
+                        and so my job was to create a custom video player in Articulate Storyline with closed navigation, SCORM reporting on the completion of each video,
+                        and integration with Adobe LMS. I had to work fast as this project had a very short deadline and needed to match perfectly with a 
+                        design mockup.
+                    </p>
                 </div>
                 <div>
                     <div class="card">
                         <div class="card-header">Skills:</div>
                         <p class="mx-2" style="font-size: larger;">
                             <span class="badge rounded-pill bg-success">Articulate Storyline</span>
-                            <span class="badge rounded-pill bg-success">Articulate Rise</span>
-                            <span class="badge rounded-pill bg-success">Instructional Design</span>
+                            <span class="badge rounded-pill bg-success">JavaScript</span>
                             <span class="badge rounded-pill bg-success">Adobe LMS</span>
-                            <span class="badge rounded-pill bg-success">Collaboration</span>
-                            <span class="badge rounded-pill bg-success">Leadership</span>
+                            <span class="badge rounded-pill bg-success">SCORM</span>
                         </p>
                     </div>
                 </div>
                 <div class="my-3">
                     <h5>Overview:</h5>
-                    <p>I collaborated with SMEs, created the majority of our online courses, and managed all aspects of our Adobe LMS.</p>
+                    <p>I created a custom SCORM enabled video player in Storyline using custom variables, states, and JavaScript code all tied perfectly 
+                        together using the timeline.
+                    </p>
 
                     <h5>Challenges:</h5>
-                    <p>The main issue I had to address as the new instructional designer was that the SMEs were creating the training content and were reluctant to give that responsibility to someone else. However, without any guidance, their training was inconsistent, dull, and poorly received by many of the adult learners.</p>
+                    <p>Neither the navigation nor the video controls in Storyline matched AMD’s design. Additionally, the learners were only supposed to 
+                        perform specific actions on the video, which were not possible using Storyline's player options.
+                    </p>
 
                     <h5>Execution:</h5>
-                    <p>I started in my role by asking the SMEs questions, talking to them about their pain points, and showing them how to improve their webinars. The most important thing I did was demonstrate that their role as SMEs was integral, but I could fix their pain points and enhance our training if they handed over the technical and design elements of the e-learning development to me.</p>
+                    <p>Because I could not use Storyline's player controls or the stock video controls, I turned them all off and created PNG buttons that 
+                        matched AMD's design mockup exactly. The most critical piece of the custom controls was a script for overriding default behavior 
+                        and adding custom play/pause buttons, captions toggling, seek controls, and a progress bar animation. Sending the SCORM communication 
+                        at the end of the video was controlled by the state of a custom variable on the timeline when the video ended.
+                    </p>
 
                     <h5>Reflection:</h5>
-                    <p>Once the SMEs saw the amazing online training I was able to create with their guidance and feedback, they loved the idea of having me take the reins. I was able to achieve great things at the NC DHHS. The SMEs and upper management respected me as an expert in instructional design (likewise, I always showed respect for them as experts in their fields). I was also able to greatly improve our online training presence and the feedback we received from our adult learners.</p>
+                    <p>This work illustrates my expertise in Articulate Storyline and JavaScript. Faced with the challenge of matching a strict design mockup and a tight deadline, I had to go beyond Storyline's default video controls 
+                        and learned how to completely override its player functionality by creating custom PNG buttons and integrating JavaScript to handle video controls 
+                        and seek actions. This project also reinforced my ability to handle SCORM reporting and integrate with Adobe LMS.
+                    </p>
                 </div>
                 <div class="small my-3 fst-italic">
                     <p>Published on Sept 5th, 2024</p>
                 </div>
             </div>
             <div class="col-md-8">
-                <h5>Screenshots</h5>
+                <h5>Screenshot</h5>
                 <div class="my-3">
                     <div class="card">
-                        <img src="/public/rise-overview.png" class="card-img-top card-header" alt="...">
+                        <img src="/public/custom-controls-test-env.png" class="card-img-top card-header" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">My Course Landing Page</h5>
-                            <p class="card-text">When developing a course in Rise, you must work within the UI template they provide. The landing page template pictured here looks great.</p>
+                            <h5 class="card-title">Custom video player in Storyline</h5>
+                            <p class="card-text">Details are crucial in our line of work, and you can see here that the video player deviates from the default Storyline controls in subtle yet significant ways.</p>
                         </div>
                     </div>
                 </div>
-                      
+                
+                <h5>JavaScript Code</h5>
+                <div class="alert alert-primary" role="alert">
+                    I always write my JavaScript functions in either the browser dev tools (snippets) or in VS code. Either of those editors provide me with a way to run and test the code, better editing tools, and syntax highlighting!
+                </div>  
                 <div class="my-3">
                     <div class="card">
-                        <img src="/public/rise-activity.png" class="card-img-top card-header" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Flip Card Activity</h5>
-                          <p class="card-text">Rise makes it very simple to insert predefined content blocks. The flip card block pictured here works great for knowledge reinforcement</p>
+                        <div class="card-header">
+                            Program I wrote to control the custom Storyline video player
                         </div>
-                    </div>
-                </div>
-
-                <div class="my-3">
-                    <div class="card">
-                        <img src="/public/rise-application.png" class="card-img-top card-header" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Flip Card Activity</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="my-3">
-                    <div class="card">
-                        <img src="/public/rise-knowledge-test.png" class="card-img-top card-header" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">End of Course Quiz</h5>
-                          <p class="card-text">Quizzes are common elements of online courses and Rise makes it simple to create your own.</p>
-                        </div>
-                    </div>
+                        <pre>
+                            <code>
+    function logger(msg) {
+        console.log("logger:", msg);
+    };
+    
+    logger("custom video control scripts have been called")
+    
+    function elementSelector(queryIdentifier, element) {
+        const parentElement = document.querySelector(`[data-acc-text = "${queryIdentifier}"]`);
+        const targetElement = parentElement.getElementsByTagName(element);
+        
+        if (targetElement.length == 0) {
+            logger(`${queryIdentifier} MISSING`);
+            return undefined 
+        } else {
+            logger(`${queryIdentifier} FOUND`)
+            return targetElement[0];
+        }
+    };
+    
+    const video = elementSelector("SL-custom-player-video.mp4", "video");
+    const customPlayBtn = elementSelector("custom-play-btn.png", "image");
+    const customPauseBtn = elementSelector("custom-pause-btn.png", "image");
+    const turnCaptionsOn = elementSelector("captions-on.png", "image");
+    const turnCaptionsOff = elementSelector("captions-off.png", "image");
+    const reverseSeek = elementSelector("reverse-seek.png", "image");
+    const forwardSeek = elementSelector("forward-seek.png", "image");
+    const progressIndicator = elementSelector("progress-bar.png", "image");
+    
+    // Values used for progressIndicator
+    let value = 0
+    let min = 0
+    
+    // Event that moves the progressIndicator
+    video.addEventListener('timeupdate', function() {
+        value = video.currentTime;
+        progressIndicator.style.width = Math
+        .floor(
+            (video.currentTime / video.duration) * 100
+        ) + '%';
+    });
+    
+    
+    // Control display of buttons
+    forwardSeek.style.display = "none"
+    turnCaptionsOff.style.display = "none"
+    
+    turnCaptionsOn.addEventListener('click', function() {
+        turnCaptionsOff.style.display = "block";
+        turnCaptionsOn.style.display = "none";
+        console.log('captions turned on')
+    });
+    
+    turnCaptionsOff.addEventListener('click', function() {
+        turnCaptionsOff.style.display = "none";
+        turnCaptionsOn.style.display = "block";
+        console.log('captions turned off')
+    });
+    
+    video.addEventListener('pause', function() {
+        console.log('Video has been paused')
+        customPlayBtn.style.display = "block"
+        customPauseBtn.style.display = "none"
+    });
+    
+    video.addEventListener('play', function() {
+        console.log('Video has been paused')
+        customPlayBtn.style.display = "none"
+        customPauseBtn.style.display = "block"
+    });
+    
+    video.addEventListener('ended', function() {
+        console.log('Video has ended')
+        customPlayBtn.style.display = "block"
+        customPauseBtn.style.display = "none"
+        forwardSeek.style.display = "block"
+    });
+    
+    // Control the play and pause actions
+    customPlayBtn.addEventListener('click', function() {
+        video.play()
+    })
+    
+    customPauseBtn.addEventListener('click', function() {
+        video.pause()
+    })
+    
+    // Control forward and reverse seeking actions
+    const seekAmountSeconds = 10
+    
+    reverseSeek.addEventListener('click', function() {
+        if (video.currentTime - seekAmountSeconds > 0) {
+            video.currentTime = video.currentTime - 10;    
+        } else {
+            video.currentTime = 0;
+        }
+    });
+    
+    forwardSeek.addEventListener('click', function() {
+        if (video.currentTime + seekAmountSeconds < video.duration) {
+            video.currentTime = video.currentTime + 10;    
+        } else {
+            video.currentTime = video.duration;
+        }
+    });                              
+                            </code>
+                        </pre>
+                    </div>    
                 </div>
             </div>
         </div>

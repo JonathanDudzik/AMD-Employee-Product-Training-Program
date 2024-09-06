@@ -1,27 +1,35 @@
-# My role
-Lead Instructional Designer
+# My Role:
+Freelance Articulate Developer
 
 # Project description
-I was hired as an instructional designer to help the Child and Adult Nutrition branch of the NC DHHS meet federal training requirements, improve public perception of our training program, and expand our asynchronous online course offerings. I started by creating e-learning courses in plain HTML, CSS, and JavaScript, but after my branch purchased Articulate 360, I began using Storyline and Rise.
+AMD was creating a training program to teach internal employees about new products. Videos for the courses had already been created
+and so my job was to create a custom video player in Articulate Storyline with closed navigation, SCORM reporting on the completion of each video,
+and integration with Adobe LMS. I had to work fast as this project This project came with a very short deadline and the final product needed to match perfectly with a 
+design mockup.
 
 # Skills and deliverables
 Articulate Storyline
-Articulate Rise
-Instructional Design
+JavaScript
 Adobe LMS
-Collaboration
-Leadership
+SCORM
 
 > Published on September 5, 2024
 
 # Overview
-I collaborated with SMEs, created the majority of our online courses, and managed all aspects of our Adobe LMS.
+I created a custom SCORM enabled video player in Storyline using custom variables, states, and JavaScript code all tied perfectly 
+together using the timeline.
 
 # Challenges
-The main issue I had to address as the new instructional designer was that the SMEs were creating the training content and were reluctant to give that responsibility to someone else. However, without any guidance, their training was inconsistent, dull, and poorly received by many of the adult learners.
+Neither the navigation nor the video controls in Storyline matched AMD’s design. Additionally, the learners were only supposed to 
+perform specific actions on the video, which were not possible using Storyline's player options.
 
 # Execution
-I started in my role by asking the SMEs questions, talking to them about their pain points, and showing them how to improve their webinars. The most important thing I did was demonstrate that their role as SMEs was integral, but I could fix their pain points and enhance our training if they handed over the technical and design elements of the e-learning development to me.
+Because I could not use Storyline's player controls or the stock video controls, I turned them all off and created PNG buttons that 
+matched AMD's design mockup exactly. The most critical piece of the custom controls was a script for overriding default behavior 
+and adding custom play/pause buttons, captions toggling, seek controls, and a progress bar animation. Sending the SCORM communication 
+at the end of the video was controlled by the state of a custom variable on the timeline when the video ended.
 
 # Reflection
-Once the SMEs saw the amazing online training I was able to create with their guidance and feedback, they loved the idea of having me take the reins. I was able to achieve great things at the NC DHHS. The SMEs and upper management respected me as an expert in instructional design (likewise, I always showed respect for them as experts in their fields). I was also able to greatly improve our online training presence and the feedback we received from our adult learners.
+This work illustrates my expertise in Articulate Storyline and JavaScript. Faced with the challenge of matching a strict design mockup and a tight deadline, I had to go beyond Storyline's default video controls 
+and learned how to completely override its player functionality by creating custom PNG buttons and integrating JavaScript to handle video controls 
+and seek actions. This project also reinforced my ability to handle SCORM reporting and integrate with Adobe LMS.
